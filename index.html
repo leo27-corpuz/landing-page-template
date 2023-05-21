@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- styles  -->
+    <link rel="stylesheet" href="./css/app.css">
+
+    <!-- icons  -->
+    <script src="https://kit.fontawesome.com/65d4f292bd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="app">
+        <nav class="nav-header-container">
+            <div class="nav-header-logo">
+                <a>
+                   <img src="/assets/logo.png" alt="">
+                </a>
+            </div>
+            <ul class="nav-ul-list d_none">
+                <li class="nav-link home-nav active" direction="home">
+                    <a>Home</a>
+                </li>
+                <li class="nav-link aboutus-nav" direction="aboutus">
+                    <a>About Us</a>
+                </li>
+                <li class="nav-link contact-nav" direction="contact">
+                    <a>Contact</a>
+                </li>
+            </ul>
+            <ul class="nav-bars">
+                <i class="fa-solid fa-bars-staggered" id="burger-btn"></i>
+            </ul>
+        </nav>
+        <main class="main-container">
+            <section class="body-container home" id="home">
+                <div class="wrap-container">
+                    <div class="e-side-l" id="e-side-l">
+                        <div>
+                            <h3>Hi There!</h3>
+                            <h1>Unlock Your Potential</h1>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi reprehenderit debitis maxime, autem vero modi explicabo rerum nostrum quaerat nulla reiciendis, unde sequi exercitationem nihil maiores velit, quo repellat minus.</p>
+                        </div>
+                        <div>
+                            <a href=""><button>View More</button></a>
+                        </div>
+                    </div>
+                    <div class="e-side-r" id="e-side-r">
+                        <div>
+                            <img src="./assets/encourage.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="body-container aboutus" id="aboutus">
+                <div class="about-us-header">
+                    <h1>About Us</h1>
+                    <hr>
+                </div>
+                <br>
+                <div class="about-us-wrap">
+                    <div class="about-us-cont-list">
+                        <div class="about-us-list-header">
+                            <img src="./assets/information.svg" alt="">
+                            <h1>Information</h1>
+                        </div>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, non.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nesciunt illum ullam quod corporis officia?</li>
+                        </ul>
+                    </div>
+                    <div class="about-us-cont-list">
+                        <div class="about-us-list-header">
+                            <img src="./assets/skills.svg" alt="">
+                            <h1>Skills</h1>
+                        </div>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, non.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nesciunt illum ullam quod corporis officia?</li>
+                        </ul>
+                    </div>
+                    <div class="about-us-cont-list">
+                        <div class="about-us-list-header">
+                            <img src="./assets/background.svg" alt="">
+                            <h1>Background</h1>
+                        </div>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, non.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nesciunt illum ullam quod corporis officia?</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="body-container contact" id="contact">
+                <div class="contact-header">
+                    <h1>Contact Us</h1>
+                    <span>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure error ullam possimus ratione dolores unde quibusdam ex in dicta esse corrupti inventore, quia consequuntur incidunt doloribus temporibus, cum est consequatur.
+                    </span>
+                    <hr>
+                </div>
+                <div class="contact-wrap">
+                    <div class="form-contact">
+                        <form action="#">
+                            <div class="wrap-input">
+                                <div class="form-contain-data">
+                                    <label for="name">Your Name<span>*</span></label>
+                                    <input type="text" class="name" id="name">
+                                 </div>
+                                 <div class="form-contain-data">
+                                     <label for="email">Email Address<span>*</span></label>
+                                     <input type="email" class="email" id="email">
+                                  </div>
+                                  <div class="form-contain-data">
+                                     <label for="phone">Phone Number<span>*</span></label>
+                                     <input type="number" class="phone" id="phone">
+                                  </div>
+                                  <div class="form-contain-data">
+                                     <label for="company">Your Company<span>*</span></label>
+                                     <input type="text" class="company" id="company">
+                                  </div>
+                            </div>
+                             <div class="form-contain-data">
+                                <label for="saysomething">Say Something<span>*</span></label>
+                                <textarea name="saysomething" id="saysomething"></textarea>
+                             </div>
+                            <div class="form-contain-data">
+                                <button type="submit" name="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="form-contact-data">
+                        <div class="aboutimage">
+                            <img src="./assets/socialmedia.svg" alt="">
+                        </div>
+                        <div class="contactus-data">
+                            <p>Contact</p>
+                            <span>09992223456</span>
+                        </div>
+                        <div class="contactus-data">
+                            <p>Email Us</p>
+                            <span>dummy@email.corp</span>
+                        </div>
+                        <div class="contactus-data">
+                           <div>
+                                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                           </div>
+                           <div>
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                           </div>
+                           <div>
+                               <a href=""><i class="fa-brands fa-twitter"></i></a>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer body-container" id="footer">
+                <div class="footer-header">
+                    <div>
+                        <span>Lorem ipsum dolor sit.</span>
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                    </div>
+                   <div>
+                        <ul>
+                            <li><a>Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                   </div>
+                </div>
+                <div class="footer-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio quibusdam sit provident ipsam, optio praesentium ratione reprehenderit dolorum consequatur minus.</p>
+                </div>
+                <div class="footer-footer">
+                    <p>&copy; Copyright 2022</p>
+                </div>
+            </footer>
+        </main>
+    </div>
+
+    <!-- scripts -->
+    <script src="./js/app.js"></script>
+</body>
+</html>
